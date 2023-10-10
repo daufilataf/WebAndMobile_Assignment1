@@ -22,3 +22,9 @@ section{
     text-align: center;
     margin-top: 5px;
 }
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px dashed darkblue;
+}
