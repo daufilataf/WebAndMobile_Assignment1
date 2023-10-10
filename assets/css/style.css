@@ -5,13 +5,15 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+        border-radius: 25% ;
+
 }
 section{
     /* display: flex;
     flex-direction: column; */
     width: 500px;
 
-    border: 2px solid white;    
+    /* border: 2px solid white;     */
 }
 
 #card{
@@ -21,6 +23,7 @@ section{
     align-items: center;
     text-align: center;
     margin-top: 5px;
+    
 }
 img{
     width: 250px;
@@ -63,4 +66,15 @@ img{
         margin-top: 10px;
         margin-bottom: 10px;
     
+}
+
+.about p {
+    font-size: 13px;
+}
+.contact {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #08aeac;
+    transition: 0.6s;
 }
