@@ -71,10 +71,50 @@ img{
 .about p {
     font-size: 13px;
 }
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional: Center vertically within the container */
+}
 .contact {
     margin-bottom: 15px;
     border-radius: 5px;
     padding: 10px;
     background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #08aeac;
     transition: 0.6s;
+    width: 50%;
+    
+}
+.contact p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#social i {
+    color: white;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.contact:hover {
+    background-color: red;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+}
+
+#social i:hover {
+    background-color: #08aeac;
+}
+
+div {
+    display: block;
 }
