@@ -4,58 +4,226 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@100&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&amp;display=swap"
-        rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 
     <title>Fuad Fataliyev</title>
 </head>
 
-
-
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2><a href="index.html">FUAD FATALIYEV</a></h2>
+            </div>
+            <ul class="nav_links">
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="https://fuadfatali1.github.io/WebAndMobile_Assignment1/">My Site</a></li>
 
-    <main>
-        <section>
-            <div id="card">
-                <img src="http://wp1.themexlab.com/wp/cards/wp-content/uploads/2015/12/profile.jpg" alt="Me">
-                <div class="me">
-                    <h1>Hi, My name is <span id="name">Fuad Fataliyev</span></h1>
-                    <h3>Full Stack Developer</h3>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="https://github.com/fuadfatali1">Github Account</a></li>
+
+                <li><a href="./card.html">Digital Card</a></li>
+
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+
+    <section id="homepage">
+
+        <div class="inner_home">
+            <div class="child_home">
+                <h1>Hi, I'm <span class="span_child">FUAD FATALIYEV</span></h1>
+                <p>Full Stack Developer</p>
+                <a href="#contact">
+                    <button class="btn">Contact</button>
+                </a>
+            </div>
+            <div class="child_home">
+                <img src="./assets/img/me3.jpeg" alt="Fuad Fataliyev">
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+        <div class="section_title">
+            <h2>SKILLS</h2>
+        </div>
+        <div class="innersoftware">
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-brands fa-java"></i>
                 </div>
-                <hr class="hrr">
-                <div class="about">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem accusamus rerum odit
-                        omnis
-                        nobis
-                        saepe in doloribus hic non maxime at numquam nesciunt, illum minus ullam modi deleniti tenetur.
-                    </p>
-                    <div class="center-container">
+                <h3>JAVA/SPRING BOOT</h3>
+                <p>I am well-versed in Java, capable of developing robust, versatile applications.
+                </p>
+            </div>
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h3>HTML&CSS</h3>
+                <p>I excel in HTML & CSS, crafting visually appealing and responsive web interfaces.
 
-                        <div class="contact">
-                            <p>Email: ffataliyev13537@ada.edu.az</p>
-                        </div>
+                </p>
+            </div>
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <h3>SQL</h3>
+                <p>Proficient in SQL, I design and manage databases with precision and accuracy.
+                </p>
+            </div>
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3>DSA</h3>
+                <p>My expertise in Data Structures enables efficient data organization,manipulation. 650+ Solved.
+                    Eolymp problems
+                </p>
+            </div>
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <h3>PYTHON</h3>
+                <p>Python is a versatile tool, facilitating rapid development, automation, and data analysis.
+
+                </p>
+            </div>
+            <div class="innersoftware_child">
+                <div class="icon">
+                    <i class="fa-solid fa-c"></i>
+                </div>
+                <h3>C/C++</h3>
+                <p>With a strong command of C/C++, I build high-performance software and system-level applications.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+        <div class="section_title">
+            <h2>PORTFOLIO</h2>
+        </div>
+        <div class="inner_portfolio">
+
+            <div class="child_portfolio">
+                <a href="./card.html">
+                    <div class="child_img">
+                        <i class="fa-solid fa-id-card"></i>
                     </div>
+                    <div class="detail">
+                        <p>I have prepared Digital Card with HTML&CSS </p>
+                        <h3>ASSIGNMENT</h3>
+                        <!-- <h3><a href="./card.html"> Assignment 1 - DIGITAL CARD </a></h3> -->
+                    </div>
+                </a>
+            </div>
+            <div class="child_portfolio">
+                <div class="child_img">
+                    <i class="fa-solid fa-meteor"></i>
                 </div>
-                <div id="social">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                <div class="detail">
+                    <p>SOON</p>
+
+                    <h3>Assignment 2</h3>
                 </div>
             </div>
-        </section>
+            <div class="child_portfolio">
+                <div class="child_img">
+                    <i class="fa-solid fa-meteor"></i>
+                </div>
+                <div class="detail">
+                    <p>SOON </p>
 
-    </main>
+                    <h3>Assignment 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
+
+    <!-- About -->
+    <section id="about">
+        <div class="section_title">
+            <h2>ABOUT</h2>
+        </div>
+        <div class="inner_achievement">
+            <div class="child_achievement">
+                <img src="./assets/img/me.jpeg" alt="Fuad Fataliyev">
+
+            </div>
+            <div class="child_achievement2">
+                <div class="single_detail sd_1">
+                    <h1>22</h1>
+                    <p>AGE</p>
+                </div>
+                <div class="single_detail sd_2">
+                    <h1>ADA UNIVERSITY</h1>
+                    <p>COMPUTER SCIENCE</p>
+                </div>
+                <div class="single_detail sd_3">
+                    <h1>3.23</h1>
+                    <p>CGPA</p>
+                </div>
+                <div class="single_detail sd_4">
+                    <h1>660</h1>
+                    <p>SEC SCORE</p>
+                </div>
+                <div class="single_detail sd_5">
+                    <h1>4</h1>
+                    <p>TA</p>
+                </div>
+                <div class="single_detail sd_6">
+                    <h1>3</h1>
+                    <p>UNIVERSITY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section_title">
+            <h2>CONTACT</h2>
+        </div>
+        <div class="inner_contact">
+            <div class="child_contact">
+                <img src="./assets/img/contact.png" alt="Contact">
+            </div>
+            <div class="child_contact">
+                <form action="mailto:fuad0fataliyev0@outlook.com" method="post">
+                    <input placeholder="Name" type="text" required name="fullname" id="">
+                    <input placeholder="Email" type="email" required name="email">
+                    <input placeholder="Phone" type="phone" required name="phone" id="">
+                    <textarea placeholder="Message" name="message" required id="" cols="30" rows="10"></textarea>
+                    <input class="send" type="submit" value="Send">
+
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
